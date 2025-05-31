@@ -37,5 +37,7 @@ function doLoad() {
   if (savedFormData) {
     email.value = savedFormData.email;
     message.value = savedFormData.message;
+    formData.email = savedFormData.email;
+    formData.message = savedFormData.message;
   }
 }
